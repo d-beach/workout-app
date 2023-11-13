@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #000; /* Dark header background color */
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+main {
+    background-color: #111; /* Dark main background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 7.5px;
+}
+
+.entry-section {
+    text-align: center;
+}
+
+.workout-input {
+    padding: 15px;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #fff; /* Light text color */
+    background-color: #333; /* Dark background color */
+}
+
+.workout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.workout-button:hover {
+    background-color: #0056b3;
+}
+
+#sitUpInput {
+    margin-top: 10px;
+}
+
+.count-section {
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.workout-count {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff; /* Light text color */
+}
+

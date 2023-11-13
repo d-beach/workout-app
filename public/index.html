@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Workout Tracker</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Daily Workout Tracker</h1>
+        </header>
+        <main>
+            <section class="entry-section">
+                <input type="number" id="pushUpInput" class="workout-input" placeholder="Enter push-ups">
+                <button id="logPushUpButton" class="workout-button">Log Push-Ups</button>
+                <input type="number" id="sitUpInput" class="workout-input" placeholder="Enter sit-ups">
+                <button id="logSitUpButton" class="workout-button">Log Sit-Ups</button>
+            </section>
+            <section class="count-section">
+                <h2>Number of Push-Ups Today</h2>
+                <p class="workout-count" id="pushCount">0</p>
+                <h2>Number of Sit-Ups Today</h2>
+                <p class="workout-count" id="sitCount">0</p>
+            </section>
+        </main>
+        <script src="/app.js"></script>
+    </body>
+</html>
